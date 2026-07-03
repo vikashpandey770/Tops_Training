@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="">
+<div>
+    <label for="">FirstName</label>
+    <input type="text" placeholder="first name" required pattern="[A-Za-z]+">
+</div>
+
+<div>
+    <label for="">MiddleName</label>
+    <input type="text" placeholder="middlename" required pattern="[A-Za-z]+">
+</div>
+
+
+<div>
+    <label for="">Lastname</label>
+    <input type="text" placeholder="lastname" required pattern="[A-Za-z]+">
+</div>
+
+<div>
+    <label for="">gender:</label><Br>
+       <td><input type="radio"name="gm">male<br>
+           <input type="radio" name="gm">female<br>
+            <input type="radio" name="gm">other
+            </td>
+</div>
+
+
+<div>
+    <label for="">Phone:</label>
+    <input type="tel" pattern="[6-9][0-9]{9}" required placeholder="Enter your number">
+</div>
+
+
+<div>
+    <td>Address</td>
+    <td><textarea name="" rows="3" cols="30"></textarea></td>
+</div> 
+
+
+
+<div>
+    <label for="">Email:</label>
+    <input type="email" placeholder="enter your email">
+</div>
+
+
+<div>
+    <label for="">Password:</label>
+    <input type="password"pattern="[A-Z][a-z0-9]{8,12}" required placeholder="Enter your password">
+</div>
+
+
+<div>
+    <label for="">Re Type Password:</label>
+    <input type="password"pattern="[A-Z][a-z0-9]{8,12}" required placeholder="Enter your password">
+</div>
+
+<div>
+<input type="submit">
+</div>
+
+    </form>
+
+</body>
+</html>

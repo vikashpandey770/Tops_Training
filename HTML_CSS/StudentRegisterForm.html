@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <form  action="" align="center" style="background-color: cornflowerblue; color: white;" >
+
+        <div>
+            <label for="">First Name</label>
+            <input type="text" placeholder="first name" required pattern="[A-Za-z]+" maxlength="50">
+            
+            <td>(max 50 char allowed)</td>
+        </div>
+        <div><label for="" style="color:white;">Last Name</label>
+            <input type="text" placeholder="Last name" required pattern="[A-Za-z]+" maxlength="50">
+            
+            <td>(max 50 char allowed)</td>
+</div>
+
+
+<div>
+     <label for="">Email Id:</label>
+    <input type="email" placeholder="enter your email">
+</div>
+
+
+<div>
+    <label for="">Mobile Number:</label>
+    <input type="tel" pattern="[6-9][0-9]{9}" maxlength="10" required placeholder="Enter your number">
+    <td>10 digit allow only</td>
+</div>
+
+<div>
+    <label for="">gender:</label>
+       <td><input type="radio"name="gm">male
+           <input type="radio" name="gm">female
+        
+            </td>
+</div>
+
+
+<div>
+    <label for="">Date Of Birth(DOB)</label>
+    <input type="date">
+</div>
+
+<div>
+ <td>Address</td>
+    <td><textarea name="" rows="3" cols="30"></textarea></td>
+</div>
+
+
+<div>
+    <label for="">City</label>
+    <input type="text" placeholder="city" required pattern="[A-Za-z]+" maxlength="50">
+    <td>Max 50 char allowed</td> 
+</div>
+
+
+<div>
+    <label for="">PinCode</label>
+    <input type="len" required pattern="[0-6]{6}" maxlength="6">
+    <td>max 6 length allowed</td>
+</div>
+
+<div>
+    <label for="">State</label>
+    <input type="text" pattern="[A-Za-z]" maxlength="50">
+    <td>max length 50 char</td>
+</div>
+
+<div>
+    <label for="">Country</label>
+    <input type="text">
+</div>
+
+<div>
+    <label>Hobbies</label>
+    <input type="checkbox" name="Drawing">Drawing
+    <input type="checkbox">Dancing
+    <input type="checkbox">Singing
+    <input type="checkbox">Skeching<br>
+    <input type="checkbox">Others
+    <input type="text" placeholder="Ex. teaching" pattern="[A-Za-z]" maxlength="50">
+    <Td>max 50 char allowed</Td>
+</div>
+
+
+<div>
+    <label>Qualification</label>
+    <input type="checkbox">High School(10)<br>
+    <input type="checkbox">Higher School(12)<br>
+    <input type="checkbox">Graduation(bacholars)<br>
+    <input type="checkbox">Post Graduation<br>
+    <input type="checkbox">Phd
+   </div>
+
+
+
+   <div>
+    
+    <label>Courses Applied For</label>
+    <input type="checkbox">BCA(Bacholar Of Computer Application)<br>
+    <input type="checkbox">B.COM (Bacholar Of Commerce)<br>
+    <input type="checkbox">B.SC(Bacholar Of Science)<br>
+    <input type="checkbox">BA<br>
+    <input type="checkbox">MCA<br>
+    <input type="checkbox">M.COM<br>
+    <input type="checkbox">M.SC<br>
+    <input type="checkbox">MA<br>
+    
+   </div>
+
+   <input type="submit">
+   <input type="reset">
+
+    </form>
+</body>
+</html>

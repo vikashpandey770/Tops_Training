@@ -1,0 +1,6 @@
+laptop
+35000
+mobile
+20000
+cpu
+5000
