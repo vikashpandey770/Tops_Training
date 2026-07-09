@@ -1,0 +1,57 @@
+.p{
+    background-color: rgb(217,65,72);
+    text-align: center;
+    height: 200px;
+    width: 50%;
+    color: white;
+    text-decoration: floralwhite;
+    text-decoration-line: inherit;
+}
+.b{
+
+    margin-top: 120px;
+color: blueviolet;
+background-color:burlywood;
+}
+.b:hover{
+    color: red;
+}
+.a{
+    color: yellow;
+}
+
+/* Style all playlist items */
+.playlist-item {
+    background-color: #121212; /* Dark background */
+    color: white;              /* White text */
+    padding: 10px;
+    margin: 5px 0;
+}
+
+/* Highlight the currently playing song */
+#current-song {
+    background-color: #1DB954; /* Spotify green */
+    color: black;
+    font-weight: bold;
+}
+
+.mains{
+    height:500px;
+    text-align: center;
+}
+.aa{
+   text-decoration: double;
+   text-shadow: 0cm;
+   text-indent: 0cap; 
+}
+.whatsp{
+    color:wantiquewhite;
+    background-color: #1DB954;
+    height: 21px;
+    width: 30px;
+    margin-left: 50%;
+    
+}
+.whatsp:hover{
+    color: chocolate;
+}
