@@ -55,3 +55,57 @@ background-color:burlywood;
 .whatsp:hover{
     color: chocolate;
 }
+
+/* General Page Styling */
+body {
+    background-color: #121212;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    padding: 40px;
+    margin: 0;
+}
+
+/* Horizontal Playlist Bar Container */
+.playlist-bar {
+    display: flex;
+    gap: 15px;
+    background-color: #000000;
+    padding: 20px;
+    border-radius: 8px;
+    overflow-x: auto; /* Allows scrolling if cards overflow screen width */
+}
+
+/* Individual Song Card */
+.song-card {
+    display: flex;
+    align-items: center; /* Vertically centers the text content inside the card */
+    background-color: #181818;
+    min-width: 200px;
+    height: 80px;
+    padding: 0 15px;
+    border-radius: 6px;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+}
+
+.song-card:hover {
+    background-color: #282828;
+}
+
+/* Text Container Stacked Vertically */
+.song-details {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+/* Text Styling */
+.song-name {
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.artist-name {
+    color: #b3b3b3;
+    font-size: 12px;
+}
